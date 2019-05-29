@@ -24,7 +24,7 @@ The examples are provided as Jupyter notebooks.
 
 Files
 
-* `structjump.ipynb`: A generic StructJuMP example describing how to use it.
+* [`structjump.ipynb`](structjump.ipynb): A generic StructJuMP example describing how to use it.
 
 ### AC Optimal Power Flow
 
@@ -32,9 +32,9 @@ AC optimal power flow (ACOPF) is the basic block composing the two-stage SCOPF t
 
 Files
 
-* `opfdata.jl`: Load grid data.
-* `acopf.jl`: Contains the opf model, initialization, the call to the solver, and the displaying of the output.
-* `acopf.ipynb`: Jupyter notebook to play with the `acopf` functionality.
+* [`opfdata.jl`](opfdata.jl): Load grid data.
+* [`acopf.jl`](acopf.jl): Contains the opf model, initialization, the call to the solver, and the displaying of the output.
+* [`acopf.ipynb`](acopf.ipynb): Jupyter notebook to play with the `acopf` functionality.
 
 ### Security Constrained Optimal Power Flow
 
