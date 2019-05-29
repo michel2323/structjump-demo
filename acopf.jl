@@ -37,7 +37,7 @@ function acopf_model(opf_data)
   #
   # JuMP model now
   #
-  opfmodel = Model(solver=IpoptSolver(print_level=0))
+  opfmodel = StructuredModel(num_scenarios=0)
 
   @variable(opfmodel, generators[i].Pmin <= Pg[i=1:ngen] <= generators[i].Pmax)
   @variable(opfmodel, generators[i].Qmin <= Qg[i=1:ngen] <= generators[i].Qmax)
