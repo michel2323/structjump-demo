@@ -1,6 +1,6 @@
 # StructJuMP Demo
 
-This repository contains a demo of the [StructJuMP](https://github.com/Argonne-National-Laboratory/StructJuMP.jl) algebraic modeling package for two-stage stochastic optimization. It goes over three examples. The first one is a general introduction on how to use StructJuMP while the last two use cases are AC optimal power flow (ACOPF) and security constrained ACOPF (SCOPF).
+This repository contains a demo of [StructJuMP](https://github.com/Argonne-National-Laboratory/StructJuMP.jl) an algebraic modeling package for two-stage stochastic optimization. It goes over two examples. The first one is a general introduction on how to use StructJuMP while the last two use cases are AC optimal power flow (ACOPF) (and later security constrained ACOPF (SCOPF)).
 
 ## Requirements
 
@@ -21,6 +21,10 @@ This installs all the dependencies of StructJuMP.
 The examples are provided as Jupyter notebooks.
 
 ### Generic Example
+
+Files
+
+* `structjump.ipynb`: A generic StructJuMP example describing how to use it.
 
 ### AC Optimal Power Flow
 
